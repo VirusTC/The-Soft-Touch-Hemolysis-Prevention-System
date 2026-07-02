@@ -67,17 +67,6 @@ Phase A: Mold Preparation & Slicing
 
 3.  Surface Post-Processing: Apply a thin micro-layer of high-temperature lacquer or epoxy resin to the inner cavities of the mold. Polish smooth. This ensures a uniform finish on the rubber wheels to eliminate micro-vibrations against the pump tube.
 
-## 🔒 7. Enclosed Sandwich Assembly & Vertical Retention
-
-### Structural Integrity Upgrades
-1. **Vertical Constraint**: The `retention_plate()` module caps the entire mechanism. The ground surgical steel axle pins slide smoothly inside horizontal track channels without any risk of vibrating or shifting out of alignment during high-RPM calibration cycles.
-2. **Surgical Steel Tolerances**: Ensure your core insert block is machined out of 316VM or 316L medical-grade stainless steel. Standardize the central core mounting set-screws to match your motor shaft orientation profile.
-3. **Hardware Assembly**:
-   * Drop the compression springs directly into the lower rotor hub chambers.
-   * Slide the flanged natural rubber wheels onto the 316 stainless axle pins.
-   * Position the axle pins into the linear guide slots under light compression.
-   * Overlay the printed or machined retention plate and screw it down firmly into the hub frame using three non-corrosive medical-grade machine screws.
-
 Phase B: Compounding & Latex Casting
 ------------------------------------
 
@@ -102,9 +91,24 @@ Phase C: Mechanical Assembly
 -   Rotational True-Run: Spin each flanged wheel manually before tube installation. The wheel must rotate freely around the axle pin with zero axial or radial runout.
 -   Occlusion Uniformity: Verify that the distance between the wheel "waist" (`16.0mm`) and the outer pump casing track is completely uniform at all 3 points of contact to maintain a stable, non-destructive flow rate.
 
-* * * * *
+* * * * *## 🔒 7. Enclosed Sandwich Assembly & Vertical Retention
 
-If you'd like, let me know:
+### Structural Integrity Upgrades
+1. **Vertical Constraint**: The `retention_plate()` module caps the entire mechanism. The ground surgical steel axle pins slide smoothly inside horizontal track channels without any risk of vibrating or shifting out of alignment during high-RPM calibration cycles.
+2. **Surgical Steel Tolerances**: Ensure your core insert block is machined out of 316VM or 316L medical-grade stainless steel. Standardize the central core mounting set-screws to match your motor shaft orientation profile.
+3. **Hardware Assembly**:
+   * Drop the compression springs directly into the lower rotor hub chambers.
+   * Slide the flanged natural rubber wheels onto the 316 stainless axle pins.
+   * Position the axle pins into the linear guide slots under light compression.
+   * Overlay the printed or machined retention plate and screw it down firmly into the hub frame using three non-corrosive medical-grade machine screws.
+  
+## 🔧 8. M3 Assembly & Mechanical Collet Calibration
 
--   The exact wall thickness and material (e.g., silicone, polyurethane) of your pump tubing so we can calculate the final housing clearance.
--   If you need to add set-screw threads or a specific clamping nut layout to the central drive shaft collar.
+### Fastener Architecture
+1. **Pilot Hole Post-Processing**: The lower rotor chassis prints with `2.5mm` pilot holes. Use a standard M3 x 0.5mm hand tap to cleanly thread the structural arms prior to hardware installation.
+2. **Plate Securing**: Use three `M3 x 12mm` stainless steel button-head hex screws to securely sandwich the retention plate to the hub core.
+
+### Compression Collet Operation
+1. **Shaft Coupler Principle**: The top plate features an integrated tapered, 4-way split collet tower. 
+2. **Locking Nut Installation**: Thread a custom-printed or machined female-tapered M12 nut down over the exterior of the collet tower. As the nut travels downward, it mechanically compresses the 4 individual collet segments inward against the motor shaft.
+3. **Dual Stabilization**: This architecture pairs the rigid torque transfer of your inner surgical stainless steel core block with a secondary, zero-backlash concentric grip directly on the motor shaft surface, preventing micro-wobbles during extended pump cycling.
